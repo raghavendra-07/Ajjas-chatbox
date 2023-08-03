@@ -104,23 +104,23 @@ comments = [
     id: 1,
     text: 'This is the first comment.',
     score: 5,
-    user: 'JohnDoe',
-    timestamp: new Date(),
+    user: 'RohitSharma',
+    timestamp: new Date('2023-08-03T12:00:00'),
     replies: [
       {
         id: 1,
         text: 'Reply to the first comment.',
         score: 3,
-        user: 'JaneSmith',
-        timestamp: new Date(),
+        user: 'Viratkolhi',
+        timestamp: new Date('2023-08-03T12:10:00'),
         replies: []
       },
       {
         id: 2,
         text: 'Another reply to the first comment.',
         score: 2,
-        user: 'JohnDoe',
-        timestamp: new Date(),
+        user: 'RohitSharma',
+        timestamp: new Date('2023-08-03T12:15:00'),
         replies: []
       }
     ]
