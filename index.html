@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Interactive Comment Section</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Comment Section</h1>
+
+  <!-- Comment Input Form -->
+  <form id="commentForm">
+    <textarea id="commentInput" placeholder="Add a new comment"></textarea>
+    <button class="btn" type="submit">Submit</button>
+  </form>
+
+  <!-- Sort and Filter Options -->
+  <div id="options">
+    <label for="sortSelect">Sort by:</label>
+    <select id="sortSelect">
+      <option value="newest">Newest First</option>
+      <option value="oldest">Oldest First</option>
+      <option value="most_score">Most Score</option>
+      <option value="least_score">Least Score</option>
+    </select>
+
+    <label for="filterInput">Filter by user:</label>
+    <input type="text" id="filterInput" placeholder="Username">
+    <button id="filterButton">Filter</button>
+  </div>
+
+  <!-- Comments Container -->
+  <div id="comments"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
